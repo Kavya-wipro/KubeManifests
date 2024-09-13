@@ -103,6 +103,8 @@ metadata:
   name: metrics-server
   annotations:
     harness.io/stage-services: "true"
+  labeld:
+    harness.io/color: blue
   namespace: kube-system
 spec:
   ports:
