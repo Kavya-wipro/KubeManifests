@@ -115,6 +115,7 @@ spec:
     targetPort: https
   selector:
     k8s-app: metrics-server
+    deployment: blue
 ---
 apiVersion: apps/v1
 kind: Deployment
