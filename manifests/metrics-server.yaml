@@ -103,6 +103,7 @@ metadata:
   name: metrics-server
   annotations:
     harness.io/stage-services: "true"
+    harness.io/direct-apply: "true"
   labeld:
     harness.io/color: blue
   namespace: kube-system
