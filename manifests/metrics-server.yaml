@@ -101,6 +101,8 @@ metadata:
   labels:
     k8s-app: metrics-server
   name: metrics-server
+  annotations:
+    harness.io/stage-services: "true"
   namespace: kube-system
 spec:
   ports:
