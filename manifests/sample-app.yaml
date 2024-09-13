@@ -32,6 +32,8 @@ metadata:
   name: nginx-service
   annotations:
     harness.io/primary-service: "true"
+  labels:
+    harness.io/color: green
 spec:
   selector:
     app: nginx
