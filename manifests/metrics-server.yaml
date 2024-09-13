@@ -104,7 +104,7 @@ metadata:
   annotations:
     harness.io/stage-services: "true"
     harness.io/direct-apply: "true"
-  labeld:
+  labels:
     harness.io/color: blue
   namespace: kube-system
 spec:
